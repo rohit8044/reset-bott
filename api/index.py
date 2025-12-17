@@ -12,10 +12,10 @@ from telegram.ext import (
 )
 
 # -------- ENV --------
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_URL = os.getenv("API_URL")
-API_KEY = os.getenv("API_KEY")
-ADMINS = {int(x) for x in os.getenv("ADMINS", "").split(",") if x}
+BOT_TOKEN = os.getenv("8366938124:AAGMffmDBP0mDCY9mMAiqPW2hO1BN8ay8cU")
+API_URL = os.getenv("https://hgcheats.online/api/reset.php")
+API_KEY = os.getenv("1913cf496729584b6e73352ab8264dd96d98829cd36c1d88cb3f271e667ae6e5")
+ADMINS = {int(x) for x in os.getenv("7863828337", "").split(",") if x}
 
 MAX_RESETS = 10
 usage = {}  # ⚠️ demo only (Vercel is stateless)
