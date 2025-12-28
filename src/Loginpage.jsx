@@ -13,7 +13,7 @@ export default function Loginpage(){
                 <form onSubmit={submit} > 
                 <label>Phone Nubmer</label>
                 <div className='inputbox'>
-                    <span className="logo">📞</span> height "10000"
+                    <span className="logo">📞</span>
                     <input type='text' placeholder='Phone Nubmer'></input>
                 </div>
                 <label>Password</label>
@@ -31,5 +31,6 @@ export default function Loginpage(){
     )
 
 }
+
 
 
