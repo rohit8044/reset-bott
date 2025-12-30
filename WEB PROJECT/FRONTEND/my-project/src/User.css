@@ -1,0 +1,7 @@
+.userpage{
+    height: 100vh;
+    background-color: red;
+}
+.userpage h1{
+    text-align: center;
+}
